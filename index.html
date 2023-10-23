@@ -3,70 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Dropbox</title>
+    
 </head>
 <body>
-    <!-- Inizio Header -->
     <header>
-        <div class="container-fluid">
-            <div class="row">
-                <!-- nav bar left -->
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <img src="img/logo-small.png" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#home">Perchè Dropbox</a>
-                        </li>
-                        <li>
-                            <a href="#news">Prdotti</a>
-                        </li>
-                        <li>
-                            <a href="#function">Funzioni</a>
-                        </li>
-                        <li>
-                            <a href="#about">Piani e Prezzi</a>
-                        </li>
-                        <li style="float:right";>
-                            <a style="background-color: blue; color: white;"  href="#inizia">Inizia</a>
-                        </li>
-                        <li style="float: right;">
-                            <a href="#accedi">Accedi</a>
-                        </li>
-                        <li style="float: right;">
-                            <a href="#contatti">Contatta l'ufficio vendite</a>
-                        </li>
-                        <li style="float: right;">
-                            <a href="#supporto">Supporto</a>
-                        </li>
-                     </ul>
-                </nav>
+        <div class="header-left">
+            <div class="logo">
+                <img src="img/logo-small.png" alt="">
+            </div>
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <a href="#">Perchè Dropbox</a>
+                    </li>
+                    <li>
+                        <a href="#">Funzioni</a>
+                    </li>
+                    <li><a href="#">Piani e Prezzi</a></li>
+                </ul>
             </div>
         </div>
-    </header>
+        <div class="header-right">
+            <div class="nav-right">
+                <ul>
+                    <li>
+                        <a href="#">Supporto</a>
+                    </li>
+                    <li>
+                        <a href="#">Contatta l'ufficio vendite</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login">
+                <ul>
+                    <li>
+                        <a href="#">Accedi</a>
+                    </li>
+                    <li>
+                        <a href="#" class="inizio">Inizia</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header> <!-- end header -->
+    <div class="hero">
+        <div class="hero-box">
+            <div class="title">
+                <p>Tutto ciò che ti serve per il lavoro, in un unico posto</p>
+            </div>
+            <div class="hero-row">
+                <div class="hero-col-1">
+                    <div class="info-box">
+                        <div> <!-- paragrafo -->
+                            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                        </div>
+                        <div> <!-- bottone -->
+                            <a href="#" class="bottone">Inizia la tua prova gratuita</a>
+                        </div>
+                        <div> <!-- annulla -->
+                            <a href="#">Annulla in qualsiasi momento</a>
+                        </div>
+                    </div>
+                    <div class="arrow-img">
+                        <div class="arrow-img-png">
+                            <i class="fa-solid fa-arrow-down fa-2xl" style="color: #080808;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-col-2">
     
-    <!-- Fine Header -->
-
-    <!-- Inizio Main -->
-    <main> 
-        <div class="container">
-            <div class="jumbotron">
-                <h1>Tutto ciò che ti serve per il lavoro in un unico posto</h1>     
-            </div> 
-    </main>
-    <!-- Fine Main -->
-
-    <!-- Inizio Footer -->
-    <footer>
-    </footer>
-    <!-- Fine footer -->
+                </div>
+            </div>
+        </div>
+    </div> <!-- end hero -->
 </body>
 </html>
