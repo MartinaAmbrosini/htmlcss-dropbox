@@ -16,7 +16,11 @@ header{
     /* background-color: aquamarine; */
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
+
 
 .header-left{
     width: 27%;
@@ -57,7 +61,7 @@ li {
 }
 
 .login .inizio {
-    padding: 3px 6px;
+    padding: 3px 9px;
     background-color: rgb(0, 97, 255); 
     color: #fff;
 }
@@ -66,7 +70,7 @@ li {
 .hero{
     width: 100%;
     background-color: rgb(180, 208, 231);
-    height: 575px;
+    height: 600px;
     padding-top: 50px;
 }
 .hero-box{
@@ -79,7 +83,7 @@ li {
     margin-bottom: 30px;
 }
 .title p{
-    font-size: 58px;
+    font-size: 60px;
     font-weight: bolder;
     text-align: left;
     word-spacing: 10px;
@@ -100,27 +104,173 @@ li {
 .hero-col-2{
     width: 55%;
     height: 375px;
-    background-color: chartreuse;
 }
 .info-box{
     width: 100%;
     margin: 0 auto;
 }
 
-.info-box p {
-    text-align: left;
-}
-
 .info-box div{
     margin-bottom: 40px;
 }
+
 .info-box .bottone{
    padding: 10px 15px;
    background-color: rgb(0, 97, 255); 
    color: #fff;
 }
-.arrow-img{
-    width: 70px;
-    height: 70px;
-    background-color: rgb(255, 255, 255);
+
+.hero-col-2 img {
+    width: 750px;
 }
+
+/* style plans*/
+.plans {
+    width: 100%;
+    background-color: rgb(231, 194, 180);
+    height: 600px;
+    padding-top: 80px;
+}
+
+.plans-box {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: beige; 
+    height:800px;
+}
+.title_plan {
+    width: 60%;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    margin-bottom: 10px;
+    /* height: 200px; */
+}
+ 
+.title_plan h2 {
+    font-size: 40px;
+    /* background-color: aqua; */
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.labels {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+  /* Hide the browser's default radio button */
+.labels input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+  /* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.labels:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+.labels input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+.labels input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+.labels .checkmark:after {
+      top: 4px;
+      left: 4px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+.plan_container {
+    display: flex;
+    /* background-color: gold; */
+    width: 60%;
+    margin: 0 auto;
+    height: 300px;
+
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.col {
+    /* background-color: #2196F3; */
+    width: 30%;
+    height: 600px;
+    border: 1px solid #d0d0d3;
+}
+
+.col_header {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    padding: 4px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.col_text {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.type {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.period {
+    color: grey;
+    margin-bottom: 40px;
+}
+
+/* .row1 {
+    width: 100%;
+} */
