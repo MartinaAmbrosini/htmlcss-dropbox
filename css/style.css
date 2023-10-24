@@ -429,6 +429,7 @@ header li {
     width: 100%;
     background-color: #b4d0e7;
     height: 300px;
+    margin-bottom: 90px;
 }
 
 .free_trial_container {
@@ -449,4 +450,29 @@ header li {
     padding: 10px 15px;
     background-color: rgb(255, 255, 255); 
     color: black;
+}
+
+.box_domande {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.interlinea {
+    height: 1px; 
+    width: 100%; 
+    border: solid 1px #ccc; 
+    margin: 40px 0;
+}
+
+.testo_domanda {
+    word-wrap: 10px; 
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.item_domande {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
