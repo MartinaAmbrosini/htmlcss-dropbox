@@ -130,13 +130,14 @@ li {
     background-color: rgb(231, 194, 180);
     height: 600px;
     padding-top: 80px;
+    height: 1000px;
 }
 
 .plans-box {
     width: 1280px;
     margin: 0 auto;
     background-color: beige; 
-    height:800px;
+    /* height:800px; */
 }
 .title_plan {
     width: 60%;
@@ -225,8 +226,6 @@ li {
     /* background-color: gold; */
     width: 60%;
     margin: 0 auto;
-    height: 300px;
-
 }
 
 .row {
@@ -238,7 +237,6 @@ li {
 .col {
     /* background-color: #2196F3; */
     width: 30%;
-    height: 600px;
     border: 1px solid #d0d0d3;
 }
 
@@ -271,6 +269,7 @@ li {
     margin-bottom: 40px;
 }
 
-/* .row1 {
-    width: 100%;
-} */
+.items_container .item_list{
+    display: flex;
+    justify-content: space-between;
+}
