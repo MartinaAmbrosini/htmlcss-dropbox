@@ -352,6 +352,7 @@ header li {
     /* background-color: brown;  */
     /* height: 800px; */
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 .card_container {
@@ -372,4 +373,11 @@ header li {
 
 .card img {
     width: 100%;
+}
+
+.more_infos {
+    max-width: 1080px;
+    margin: 0 auto;
+    /* background-color: #2196F3;
+    height: 500px; */
 }
